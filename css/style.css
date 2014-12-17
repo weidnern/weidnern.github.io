@@ -797,7 +797,7 @@
 		background-size: 25em, 25em, auto, cover;
 		color: white;
 		cursor: default;
-		padding: 6em 0;
+		padding: 10em 0;
 		text-align: center;
 	}
 
@@ -816,8 +816,10 @@
 			color: white;
 			display: inline-block;
 			opacity: 0;
-			padding: 12em;
+			padding: 6em;
 			text-align: center;
+			position: relative;
+			left: -20vw;
 		}
 
 			#banner .inner header {
