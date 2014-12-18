@@ -10,7 +10,8 @@
 /* Basic */
 
 	body, #skel-layers-wrapper {
-		background: #f3f6fa;
+		/*background: #f3f6fa;*/
+		background: #191918;
 	}
 
 	body.is-loading * {
@@ -791,13 +792,13 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/BannerTest.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/starfox.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: white;
 		cursor: default;
-		padding: 10em 0;
+		padding: 25em 0;
 		text-align: center;
 	}
 
