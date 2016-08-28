@@ -43,3 +43,9 @@ body {
 	text-align: center;
 	padding-top: 120%;
 }
+
+@media (min-width: 600px) {
+  .wide {
+    background-image: url('assets/003.JPG')
+  }
+}
