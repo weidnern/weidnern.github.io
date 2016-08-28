@@ -15,7 +15,7 @@ body {
   width:100%;
   height:50%;
   height:calc(75% - 1px);
-  background-image:url('assets/001.JPG');
+  background-image:url('assets/003.JPG');
   background-position: 0% 30%;
   background-size:cover;
 }
@@ -46,6 +46,6 @@ body {
 
 @media (min-width: 600px) {
   .wide {
-    background-image: url('assets/003.JPG')
+    background-image: url('assets/001.JPG')
   }
 }
