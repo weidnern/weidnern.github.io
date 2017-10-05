@@ -74,6 +74,11 @@ body {
   align-items: center;
 }
 
+.panel-title-custom {
+  font-size: 150%;
+  color: #000000;
+}
+
 .contact-list {
   padding: 20% 0;
 }
@@ -86,8 +91,18 @@ body {
   text-align:center;
 }
 
+.github-logo {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.linked-in-logo {
+  max-width: 30%;
+  max-height: 30%;
+}
+
 .line {
-  padding-top:20px;
+  padding-top:0px;
   white-space:no-wrap;
   overflow:hidden;
   text-align:center;
@@ -96,6 +111,54 @@ body {
 .circlepic {
 	text-align: center;
 	padding-top: 120%;
+}
+
+.bib-li {
+  margin-bottom: 1em;
+}
+
+.bib-title {
+  font-size: 120%;
+  color: #500000;
+}
+
+a.bib-title-a:link {
+  color: #500000;
+  text-decoration: none;
+}
+
+a.bib-title-a:visited {
+  color: #500000;
+  text-decoration: none;
+}
+
+a.bib-title-a:hover {
+  color: #500000;
+  text-decoration: underline;
+}
+
+a.bib-title-a:active {
+  color: #500000;
+  text-decoration: underline;
+}
+
+.bib-author {
+  color: #836E2C;
+}
+
+.bib-journal {
+  font-style: italic;
+}
+
+.bib-default {
+  
+}
+
+li.borderless {
+  border-top: 0 none;
+  border-bottom: 0 none;
+  border-left: 0 none;
+  border-right: 0 none;
 }
 
 @media (min-width: 600px) {
