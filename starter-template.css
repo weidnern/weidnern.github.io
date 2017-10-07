@@ -54,15 +54,37 @@ body {
 }
 
 .wide {
+  width:105%;
+  height:50%;
+  height:calc(75% - 1px);
+  background-image:url('assets/nz_just_bg.JPG');
+  background-position: 0% 60%;
+  background-size:cover;
+}
+
+.wide2 {
+  width:100%;
+  height:50%;
+  height:calc(100% - 1px);
+  background-image:url('assets/nz_me_and_rock.PNG');
+  background-position: 0% 60%;
+  background-size:cover;
+}
+
+/*.wide {
   width:100%;
   height:50%;
   height:calc(75% - 1px);
   background-image:url('assets/003.JPG');
   background-position: 0% 30%;
   background-size:cover;
-}
+}*/
 
 .wide img {
+  width:100%;
+}
+
+.wide2 img {
   width:100%;
 }
 
@@ -163,6 +185,18 @@ li.borderless {
 
 @media (min-width: 600px) {
   .wide {
-    background-image: url('assets/001.JPG')
+    background-image: url('assets/nz_just_bg.JPG')
   }
 }
+
+@media (min-width: 600px) {
+  .wide2 {
+    background-image: url('assets/nz_me_and_rock.PNG')
+  }
+}
+
+/*@media (min-width: 600px) {
+  .wide {
+    background-image: url('assets/001.JPG')
+  }
+}*/
