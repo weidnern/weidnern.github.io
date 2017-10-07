@@ -59,7 +59,7 @@ body {
   width:105%;
   height:50%;
   height:calc(75% - 1px);
-  background-image:url('assets/nz_just_bg.JPG');
+  background-image:url('assets/nz_just_bg.jpg');
   background-position: 0% 60%;
   background-size:cover;
 }
@@ -68,7 +68,7 @@ body {
   width:100%;
   height:50%;
   height:calc(100% - 1px);
-  background-image:url('assets/nz_me_and_rock.PNG');
+  background-image:url('assets/nz_me_and_rock.png');
   background-position: 0% 60%;
   background-size:cover;
 }
@@ -187,13 +187,13 @@ li.borderless {
 
 @media (min-width: 600px) {
   .wide {
-    background-image: url('assets/nz_just_bg.JPG')
+    background-image: url('assets/nz_just_bg.jpg')
   }
 }
 
 @media (min-width: 600px) {
   .wide2 {
-    background-image: url('assets/nz_me_and_rock.PNG')
+    background-image: url('assets/nz_me_and_rock.png')
   }
 }
 
