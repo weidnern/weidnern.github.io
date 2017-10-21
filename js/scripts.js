@@ -1,4 +1,4 @@
-// ..
+// ...
 
 // $(document).ready(function() {
 // var movementStrength = 25;
