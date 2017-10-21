@@ -56,9 +56,9 @@ body {
 }
 
 .wide {
-  width:100%;
-  height:50%;
-  height:calc(75% - 1px);
+  width:105%;
+  height:100%;
+/*  height:calc(75% - 1px);*/
   background-image:url('assets/nz_just_bg.jpg');
   background-position: 0% 60%;
   background-size:cover;
@@ -66,7 +66,7 @@ body {
 
 .wide2 {
   width:100%;
-  height:50%;
+  height:100%;
   height:calc(100% - 1px);
   background-image:url('assets/nz_me_and_rock.png');
   background-position: 0% 60%;
@@ -195,12 +195,14 @@ li.borderless {
 @media (min-width: 600px) {
   .wide {
     background-image: url('assets/nz_just_bg.jpg')
+    background-position: 30% 0%;
   }
 }
 
 @media (min-width: 600px) {
   .wide2 {
     background-image: url('assets/nz_me_and_rock.png')
+    background-position: 30% 0%;
   }
 }
 
@@ -209,3 +211,34 @@ li.borderless {
     background-image: url('assets/001.JPG')
   }
 }*/
+
+.cover-wrapper {
+  width: 100%;
+  height: 73%;
+  overflow: hidden;
+}
+
+.cover-parent {
+    width: 100%;
+    margin: 20px;
+    height: 300px;
+    border: 1px solid blue;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+  cursor: pointer;
+}
+
+.cover-child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.cover-img-one {background-image: url('assets/nz_just_bg.jpg');}
