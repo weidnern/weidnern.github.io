@@ -1,0 +1,206 @@
+body,html {
+  height: 100%;
+}
+
+body {
+  padding-top: 0px;
+  background-color: #fff;
+}
+.nick-desc {
+  padding: 3rem 1.5rem;
+  text-align: left;
+}
+
+.nick-desc a {
+    color: #500000;
+}
+
+#container-nz {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  //border: solid 1px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slide11 {
+  display: block;
+  position: absolute;
+  height: 200px !important;
+  width: 200px !important;
+  background: red;
+}
+
+.nzbg {
+  position: absolute;
+
+  width: 110%;
+  height: 110%;
+  background-image:url('../assets/nz_just_bg.jpg');
+  background-size:cover;
+  background-position: 0% 60%;
+}
+
+.nzme {
+  position: absolute;
+
+  width: 110%;
+  height: 110%;
+  background-image:url('../assets/nz_me_and_rock.png');
+  background-size:cover;
+  background-position: 0% 60%;
+}
+
+.nzname {
+  position: absolute;
+  border: 5px solid white;
+}
+
+.nzname h1 {
+    color: white;
+    font-size: 300%;
+    padding: 10px;
+}
+
+#scroll-arrow span {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+#accordion {
+    padding-bottom: 50px;
+}
+
+.card-header .fa {
+  transition: .3s transform ease-in-out;
+}
+.card-header .collapsed .fa {
+  transform: rotate(90deg);
+}
+
+.collapse-header {
+    color: #6d6d6d;
+}
+
+.collapse-header:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.collapse-icon {
+    float: right;
+}
+
+.rep-image {
+    max-width:100%;
+    max-height:100%;
+}
+
+.pubrow {
+    padding: 15px;
+}
+
+.bib-li {
+  margin-bottom: 1em;
+}
+
+.bib-title {
+  font-size: 130%;
+  color: #500000;
+}
+
+a.bib-title-a:link {
+  color: #500000;
+  text-decoration: none;
+}
+
+a.bib-title-a:visited {
+  color: #500000;
+  text-decoration: none;
+}
+
+a.bib-title-a:hover {
+  color: #500000;
+  text-decoration: underline;
+}
+
+a.bib-title-a:active {
+  color: #500000;
+  text-decoration: underline;
+}
+
+.bib-author {
+  color: #466A9F;
+}
+
+.bib-author:visited {
+  color: #466A9F;
+}
+
+.bib-journal {
+  font-style: italic;
+}
+
+.bib-default {
+  
+}
+
+.logo {
+  color:#000;
+  font-weight:800;
+  font-size:14pt;
+  padding:25px;
+  text-align:center;
+}
+
+.github-logo {
+  max-width: 70%;
+  max-height: 70%;
+  text-align: center;
+}
+
+.linked-in-logo {
+    position: absolute;
+  width: 70%;
+  height: 70%;
+}

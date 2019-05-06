@@ -1,264 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <!-- Nick Weidner -->
-<!-- I'm really bad at web programming -->
-<!-- Much of this is a collection of random web tutorials -->
-<!-- Dots for push update bug ..... -->
+<!-- Version 2.0 -->
+<!-- Dots for push update bug .. -->
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="Nick Weidner">
 
-    <title>Nick Weidner</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap_3.3.7.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/index.css">
+    
+    <!-- Font Awesome Styles-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link href="css/index.css" rel="stylesheet">
+	
+    <title>Nick Weinder</title>
   </head>
-
   <body>
-
-    <nav class="navbar navbar-fixed-top navbar-inverse">
-      <ul class="nav navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="projects.html">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li> -->
-      </ul>
-    </nav>
-
-    <div class="cover-wrapper">
-      <div class="wide">
-        <div class="wide2">
-
-        </div>
-      </div>
+  
+    <div id="container-nz">
+      <div class="nzbg"></div>
+      <div class="nzme"></div>
+      <div class="nzname"><h1>NICK</hi><h1>WEIDNER</hi></div>
+      <div id="scroll-arrow"><span></span></div>
+      <!-- <img class="object-fit_cover" src='assets/nz_just_bg.jpg' /> -->
+      <!-- <div class="slide11 one"></div> -->
     </div>
-
-<!--     <div class="wide">
-      <div class="col-xs-5 line"><hr></div>
-      <div class="col-xs-2 logo"></div>
-      <div class="col-xs-5 line"><hr></div> 
-      <div class="wide2">
-      </div>
-    </div> -->
-
+    
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-            <div class="starter-template">
+            <div class="nick-desc">
               <h1>Nick Weidner</h1>
               <h4>PhD Student</h4>
               <h5>Texas A&M University</h5>
               <p>Currently pursuing a PhD in Computer Science at <a href="http://www.tamu.edu">Texas A&M University</a>, I am a member of the TAMU Computer Graphics Lab working under <a href="http://faculty.cs.tamu.edu/sueda/">Dr. Shinjiro Sueda</a> on physical simulation and computation fabrication. Before starting my PhD I recieved a Masters degree from the <a href="http://www.sc.edu">University of South Carolina</a> working under <a href="https://cse.sc.edu/~yiannisr/">Dr. Ioannis Rekleitis</a> in the Autonomous Field Robotics Lab. I also received a BS in Computer Science and Math from the University of South Carolina in 2016.   </p>
             </div>
         </div>
-<!--         <div class="col-md-2">
-            <div class="circlepic">
-              <a href="https://www.linkedin.com/pub/nicholas-weidner/74/91b/798">
-                <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Nicholas Weidner's profile on LinkedIn">
-              </a>
-            </div>
-        </div> -->
+        
       </div>
-
-      <!--<div class="row">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title panel-title-custom">Current Projects</h3>
-          </div>
-          <div class="panel-body">
-            <ul>
-              <li>Eulerian-on-Lagrangian Cloth Simulation</li>
-            </ul>
-          </div>
-        </div>
-      </div>-->
-
-      <!--<<div class="row">
-        <div class="panel panel-default">
-          <div class="panel-heading" data-toggle="collapse" href="#collapseV">
-            <h3 class="panel-title panel-title-custom">Past Projects</h3>
-          </div>
-          <div id="collapseV" class="panel-collapse collapse">
-            <div class="panel-body">
-              <h4> Research </h4>
-              <ul class="list-unstyled row">
-                <li class="list-group-item col-xs-4 borderless"></li>
-                <li class="list-group-item col-xs-4 borderless">
-                <h4> ICRA 2017 </h4>
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <iframe height="240px" class="embed-responsive-item" src="https://www.youtube.com/embed/TAgJEZ4Ed_o"></iframe>
+      <div id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="card">
+          <h5 class="card-header" role="tab" id="heading-publications">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-publications" aria-expanded="true" aria-controls="collapse-publications" class="d-block collapse-header">
+                Publications
+                <i class="fa fa-chevron-down pull-right collapse-icon"></i>
+            </a>
+          </h5>
+          <div id="collapse-publications" class="collapse show" aria-labelledby="heading-publications">
+              <div class="card-body">
+                  <div class="row pubrow">
+                    <div class="col-sm-3">
+                        <img class="rep-image rounded float-left" src="assets/redmax.jpg">
+                    </div>
+                    <div class="col-sm-9 my-auto">
+                        <span class="bib-title"><a href="http://faculty.cs.tamu.edu/sueda/projects/redmax/" class="bib-title-a">REDMAX: Efficient & Flexible Approach for Articulated Dynamics</a></span><br><span><a href="http://www.yingwang.io/" class="bib-author">Ying Wang</a></span>, <span><a href="http://www.weidnern.github.io" class="bib-author">Nicholas Weidner</a></span>, <span><a href="https://www.linkedin.com/in/baxter-margareta/" class="bib-author">Margaret A Baxter</a></span>, <span><a href="https://www.linkedin.com/in/yura-hwang-a16288180/" class="bib-author">Yura Hwang</a></span>, <span><a href="http://dannykaufman.io/" class="bib-author">Danny M. Kaufman</a></span>, and <span><a href="http://faculty.cs.tamu.edu/sueda/" class="bib-author">Shinjiro Sueda</a></span><br><I>ACM Transaction on Graphics,</I> 38 (4) XX:1-XX:10 (SIGGRAPH), 2019.
+                    </div>
                   </div>
-                </li>
-                <li class="list-group-item col-xs-4 borderless"></li>
-              </ul>
-              <h4> Class Related </h4>
-<!--               <ul class="list-unstyled row">
-                <li class="list-group-item col-xs-6 borderless">
-                  <video controls class="center-vid">
-                    <source src="IROS_CAVE.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video>
-                </li>
-                <li class="list-group-item col-xs-6 borderless">
-                  <video controls class="center-vid">
-                    <source src="IROS_CAVE.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video>
-                </li>
-              </ul>
+                  
+                  <div class="row pubrow">
+                    <div class="col-sm-3">
+                        <img class="rep-image rounded float-left" src="assets/THROW_0089.jpg">
+                    </div>
+                    <div class="col-sm-9 my-auto">
+                        <span class="bib-title"><a href="http://faculty.cs.tamu.edu/sueda/projects/eol-cloth/" class="bib-title-a">Eulerian-on-Lagrangian Cloth Simulation</a></span><br><span><a href="http://www.weidnern.github.io" class="bib-author">Nicholas Weidner</a></span>, <span><a href="https://www.linkedin.com/in/kyle-piddington-5870b4106/" class="bib-author">Kyle Peddington</a></span>, <span ><a href="http://diwlevin.webfactional.com/researchdb/" class="bib-author">David I.W. Levin</a></span>, and <span><a href="http://faculty.cs.tamu.edu/sueda/" class="bib-author">Shinjiro Sueda</a></span><br><I>ACM Transaction on Graphics,</I> 37 (4) 50:1-50:11 (SIGGRAPH), 2018.
+                    </div>
+                  </div>
+                  
+                  <div class="row pubrow">
+                    <div class="col-sm-3">
+                        <img class="rep-image rounded float-left" src="assets/cave.png">
+                    </div>
+                    <div class="col-sm-9 my-auto">
+                        <span class="bib-title"><a href="https://afrl.cse.sc.edu/afrl/research/standard/CaveMapping/" class="bib-title-a">Underwater cave mapping using stereo vision</a></span><br><span><a href="http://www.weidnern.github.io" class="bib-author">Nicholas Weidner</a></span>, <span><a href="https://afrl.cse.sc.edu/sharmin/home/" class="bib-author">Sharmin Rahman</a></span>, <span ><a href="https://sites.google.com/site/albertoquattrinili/" class="bib-author">Alberto Quattrini Li</a></span>, and <span><a href="https://cse.sc.edu/~yiannisr/" class="bib-author">Ioannis Rekleitis</a></span><br><I>IEEE International Conference on Robotics and Automation,</I> 2017.
+                    </div>
+                  </div>
+                  
+              </div>
+          </div>
+        </div>
+        
+        <div class="card">
+            <h5 class="card-header" role="tab" id="heading-CV">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-CV" aria-expanded="true" aria-controls="collapse-CV" class="d-block collapse-header">
+                CV
+                <i class="fa fa-chevron-down pull-right collapse-icon"></i>
+            </a>
+          </h5>
+            <div id="collapse-CV" class="collapse" role="tabpanel" aria-labelledby="heading-CV">
+                <div class="card-block">
+                    <iframe src="https://drive.google.com/file/d/1cm2leKg2FxGxv8JB4f0M11BXpUE8uV70/preview" width="100%" height="480" align="center"></iframe>
+                </div>
             </div>
-          </div>
         </div>
-      </div>-->
-
-      <div class="row">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title panel-title-custom">Publications</h3>
-          </div>
-          <div class="panel-body">
-			<ul>
-              <li class="bib-li"><span class="bib-title"><a href="http://faculty.cs.tamu.edu/sueda/projects/eol-cloth/" class="bib-title-a">Eulerian-on-Lagrangian Cloth Simulation</a></span><br><span id="bib-author"><a href="http://www.weidnern.github.io">Nicholas Weidner</a></span>, <span id="bib-author"><a href="#">Kyle Peddington</a></span>, <span id="bib-author"><a href="http://diwlevin.webfactional.com/researchdb/">David I.W. Levin</a></span>, and <span id="bib-author"><a href="http://faculty.cs.tamu.edu/sueda/">Shinjiro Sueda</a></span><br><I>ACM Transaction on Graphics,</I> 37 (4) 50:1-50:11 (SIGGRAPH), 2018.</li>
-            </ul>
-            <ul>
-              <li class="bib-li"><span class="bib-title"><a href="http://ieeexplore.ieee.org/abstract/document/7989672/" class="bib-title-a">Underwater cave mapping using stereo vision</a></span><br><span id="bib-author"><a href="http://www.weidnern.github.io">Nicholas Weidner</a></span>, <span id="bib-author"><a href="https://afrl.cse.sc.edu/sharmin/home/">Sharmin Rahman</a></span>, <span id="bib-author"><a href="https://sites.google.com/site/albertoquattrinili/">Alberto Quattrini Li</a></span>, and <span id="bib-author"><a href="https://cse.sc.edu/~yiannisr/">Ioannis Rekleitis</a></span><br><I>IEEE International Conference on Robotics and Automation,</I> 2017.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-	  
-	  <div class="row">
-        <div class="panel panel-default">
-          <div class="panel-heading" data-toggle="collapse" href="#collapse1">
-            <h3 class="panel-title panel-title-custom">CV</h3>
-          </div>
-		  <div id="collapse1" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<div class = "row">
-							<iframe src="https://drive.google.com/file/d/1cm2leKg2FxGxv8JB4f0M11BXpUE8uV70/preview" width="100%" height="480" align="center"></iframe>
-				</div>
-			  </div>
-		  </div>
-        </div>
-      </div>
-	  
-	  <div class="row">
-        <div class="panel panel-default">
-          <div class="panel-heading" data-toggle="collapse" href="#collapseV">
-            <h3 class="panel-title panel-title-custom">Demo Reel</h3>
-          </div>
-		  <div id="collapseV" class="panel-collapse collapse">
-			  <div class="panel-body">
-				<div class="row">
-					<div class="embed-responsive embed-responsive-16by9">
+        
+        <div class="card">
+            <h5 class="card-header" role="tab" id="heading-DR">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-DR" aria-expanded="true" aria-controls="collapse-DR" class="d-block collapse-header">
+                Demo Reel
+                <i class="fa fa-chevron-down pull-right collapse-icon"></i>
+            </a>
+          </h5>
+            <div id="collapse-DR" class="collapse" role="tabpanel" aria-labelledby="heading-DR">
+                <div class="card-block">
+                    <div class="embed-responsive embed-responsive-16by9">
 						<iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1VSgsqD1zJLzYqCyikdeYa3J18naq1bfj/preview" allowfullscreen></iframe>
 					</div>
-				</div>
-			  </div>
-		  </div>
-        </div>
-      </div>
-
-      <!--<div class="row">
-        <div class="panel panel-default">
-          <div class="panel-heading" data-toggle="collapse" href="#collapse1">
-            <h3 class="panel-title panel-title-custom">Personal</h3>
-          </div>
-          <div id="collapse1" class="panel-collapse collapse">
-            <div class="panel-body">
-              <h4> Countries to visit </h4>
-              <ul class="list-unstyled row">
-                <li class="list-group-item col-xs-3 borderless">Singrapore &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">New Zealand &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">Germany &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">Austria &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">France &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">Switzerland &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">Japan</li>
-                <li class="list-group-item col-xs-3 borderless">Australia</li>
-                <li class="list-group-item col-xs-3 borderless">England</li>
-                <li class="list-group-item col-xs-3 borderless">Korea</li>
-              </ul>
-              <h4> US National Parks </h4>
-              <ul class="list-unstyled row">
-                <li class="list-group-item col-xs-3 borderless">Congaree &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">Grand Canyon &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">Yosemitee &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">Badlands &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">Yellowstone &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">Grand Tetons &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">Arches &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">Joshua Tree &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">Zion &#9989</li>
-                <li class="list-group-item col-xs-3 borderless">Glacier</li>
-                <li class="list-group-item col-xs-3 borderless">Mt. Rainier</li>
-                <li class="list-group-item col-xs-3 borderless">Sequoia</li>
-                <li class="list-group-item col-xs-3 borderless">Archadia</li>
-                <li class="list-group-item col-xs-3 borderless">Olympic</li>
-              </ul>
+                </div>
             </div>
-          </div>
         </div>
-      </div>-->
-
-      <div class="row">
-        <div class="panel panel-default">
-          <div class="panel-heading" data-toggle="collapse" href="#collapse2">
-            <h3 class="panel-title panel-title-custom">External</h3>
-          </div>
-          <div id="collapse2" class="panel-collapse collapse">
-            <div class="panel-body">
-              <div class="row">
-                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-6">
-                    <a href="https://github.com/weidnern">
-                      <img class="github-logo center-block" src="assets/GitHub_Logo.png" />
-                    </a>
-                  </div>
-                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-6">
-                    <a href="https://www.linkedin.com/pub/nicholas-weidner/74/91b/798">
-                      <img class="linked-in-logo center-block" src="assets/in_black.png" />
-                    </a>
-                  </div>
-              </div>
+        
+        <!-- Template for another tab -->
+        <!-- <div class="card">
+            <h5 class="card-header" role="tab" id="heading-CV">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-CV" aria-expanded="true" aria-controls="collapse-CV" class="d-block collapse-header">
+                Publications
+                <i class="fa fa-chevron-down pull-right collapse-icon"></i>
+            </a>
+          </h5>
+            <div id="collapse-CV" class="collapse" role="tabpanel" aria-labelledby="heading-CV">
+                <div class="card-block">
+                    card block
+                </div>
             </div>
-          </div>
-        </div>
+        </div> -->
+        
       </div>
-
     </div>
     
+    </div class="container">
+        
+    </div>
 
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
-    <script src="js/old_bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <!-- Custom scripts -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<!--GSAP Animation JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+	<!-- Custom scripts -->
     <script src="js/scripts.js"></script>
   </body>
 </html>
